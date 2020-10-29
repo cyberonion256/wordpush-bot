@@ -18,7 +18,7 @@ The WordPush Bot allows you to upload your favorite vocabulary in an Google Spre
 
 ## Prepare Google Spread Sheet
 
-The bot in its current specification is written to fill the attached spread sheet [Template](docs/WordPush.xls). The provided template consistes of three worksheets:
+The bot in its current specification is written to fill the attached spread sheet [Template](WordPush.xls). The provided template consistes of three worksheets:
 - *Worksheet 1 "Dict_input":* This is where your vocabulary is stored. Currently filled with English-German vocab. Erase the current content and fill in your vocab. Make sure to keep the header!
 - *Worksheet 2 "command_storage":* This is a temporary storage for commands that control the bot. Please don't change anything here unless you are sure what you are doing.
 - *Worksheet 3 "userlist":* Here, the bot logs all users of your bot. In the sense of open source, everyone can jump onto your bot and receive the same vocab you do. Don't worry - outsiders cannot mess with the acutal bot. They only receive the help that you do.
